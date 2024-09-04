@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #000;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.profile-image-section {
+    padding: 20px 10px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #d0cccc;
+}
+
+.profile-image-section img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    padding: auto;
+    margin-left: 20px;
+}
+
+.profile-actions {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.profile-actions .atualizar {
+    height: 40px;
+    width: 300px;
+    background-color: #333333;
+    color: #ffffff;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.profile-actions .atualizar:hover {
+    background-color: #555555;
+}
+
+.profile-actions p {
+    margin-left: 30px;
+    margin-bottom: auto;
+    color: #000000;
+    font-size: 12px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #d0cccc;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.save-changes {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.save-changes:hover {
+    background-color: #555555;
+}
